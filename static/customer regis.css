@@ -1,0 +1,83 @@
+body{
+    background-color: mediumaquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+    *{
+        font-family: 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+    }
+
+
+    h2{
+        text-align: center;
+        margin-bottom: 40px;
+        color: rgb(22, 42, 169);
+        border-style: double;
+        border-color: black;
+    }
+
+    input{
+        display: block;
+        border: 2px solid #ccc;
+        width: 95%;
+        padding: 8px;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+
+    label{
+
+        padding: 10px;
+        font-size: 18px;
+        color: rgb(20, 70, 70);
+
+    }
+
+    a{
+        color: light pink;
+    }
+
+    button {
+        float: center;
+        background: lightcoral; 
+    }
+        
+    body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+#navbar{
+    background-color: #333;
+    color: #f9f3f3;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+       button {
+        padding: 10px 15px;
+        color: black;
+        border-radius: 5px;
+        margin-right: 10px;
+        border: none;
+}
+
+    button:hover{
+        opacity: .7;
+    }
